@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&family=Montserrat:wght@300&family=Sacramento&family=Sarabun&display=swap"
+        rel="stylesheet">
+        
+    <title>Anuj Sharma</title>
+</head>
+
+<body>
+    <nav class="navbar" >
+         
+           <span class="name-logo"><a href="#navbar"><h2>ANUJ SHARMA</h2></a></span> 
+        
+        <div class="nav-right">
+           <span class="links"> <a href="#animate"><h4>About</h4></a></span>
+           <span class="links"><a href="#skills"><h4>Skills</h4></a></span> 
+           <span class="links"><a href="#contact"><h4>Contact Me</h4></a></span> 
+        </div>
+    </nav>
+    <div class="upper-container" id="navbar">
+    <div>
+        <img src="images/cloud.png" alt="" class="top-cloud">
+    </div>
+    <div class="name">
+        <h1>Hi <img src="images/bitmoji.png" alt="bitmoji" class="hi">, I'm Anuj.</h1>
+        <h2>
+            <p class="bio" id="animate">Front End Developer and Competitive Programmer
+            </p>
+        </h2>
+    </div>
+    
+</div>
+    <div class="middle-container">
+         <h2>ABOUT ME</h2>
+        <div class="profile">
+           
+            
+            <div class="col">
+                <img src="images/profile.jpg" alt="Profile-photo" class="pic">
+            </div>
+            <div class="col">
+            <p class="intro">Welcome! I’m happy you’re here😄.
+                I'm Anuj Sharma from Jaipur, Rajasthan. Currently, I'm a undergrad student at NIT Jalandhar. I'm a looking SWE/SDE Internship.
+                
+                I am a Front End Web Developer and learning Backend.
+                
+                Also, I love to do Competitive Programming and do some brain bashing. I'm 3⭐ Star at <a href="https://www.codechef.com/users/anujsh2002" target="_blank" style="color: black; text-decoration: underline;"><strong>CodeChef</strong></a>  and <a href="https://leetcode.com/anujsharma10112002/" target="_blank" style="color: black; text-decoration: underline;"><strong>Leetcode</strong></a>. 
+                
+                Other than these, I like to travel a lot.
+            </p>
+        </div>
+           
+        </div>
+        <hr>
+        <div id="skills"></div>
+        <div class="skills" >
+            <h2>Skills</h2>
+             <div class="skill-set">
+               <div class="logo-template">
+                   <div class="logo-row">
+                    <img src="images\skill logo.png" alt="" class="logoimg">
+                   </div>
+                   <div class="logo-row">
+                       <h4>Web Development</h4>
+                   </div>
+                   <div class="logo-row">
+                       <h4>Experienced in working frontend and learning backend of websites..</h4>
+                   </div>
+               </div>
+             <div class="skills-name">
+              <div class="row">
+                  <img src="images\git.png" alt="git"  class="skils-pic">
+                  <img src="images\js.png"  alt="javascript" class="skils-pic">
+                  <img src="images\bootstrap-logo.png" alt="bootstrap" class="skils-pic">
+              </div>
+              <div class="row">
+                <img src="images\css.jpg" alt="css" class="skils-pic">
+                <img src="images\skills-problem-solving.png" alt="DSA problem solving" class="skils-pic">
+                <img src="images\react.png" alt="react framework" class="skils-pic">
+              </div>
+             </div>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me" id="contact">
+            <h2>CONTACT ME</h2>
+            <h3>Let's have a conversation.</h3>
+         <div class="safeContainer">
+            <div class="left">
+                <div class="insider">
+                    <h3>Send Email</h3>
+                 <form action="mailto:anujsharma10112002@gmail.com" enctype="text/plain" >
+               <input type="text" placeholder="Your Name">
+               <br></br>
+               <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+               <br></br>
+               <button type="text" class="btn" >Contact Me</button>
+               </form>
+            </div>
+           </div>
+            
+            
+           <div class="right" >
+              <div class="insider">
+                <h3>Connect on Social Media</h3>
+                <div class="row">
+                   <a href="https://www.linkedin.com/in/anuj-sharma-169813194/" target="_blank"> <img src="images\linkdin.png" class="cntct" alt="linkdin" width="100px" height="100px"></a>
+                    <a href="https://github.com/anujsh2002" target="_blank"><img src="images\github.png" class="cntct" alt="github" width="100px" height="100px"></a>
+                   <a href="https://twitter.com/its_anuj_sharma" target="_blank"><img src="images\twitter.png" class="cntct" alt="twitter" width="100px" height="100px"></a> 
+                    <a href="https://www.facebook.com/anujsh2001" target="_blank"><img src="images\meta.png" class="cntct" alt="facebook" width="100px" height="100px"></a>
+                </div>
+              </div>
+           </div>
+         </div>
+        </div>
+    </div>
+
+
+    <div class="bottom-container">
+       
+        <p style="color: #eaf6f6;"><strong>Made With ❤️ By Anuj Sharma.</strong> </p>
+    </div>
+    <script type="text/javascript">
+        function refreshPage () {
+            var page_y = document.getElementsByTagName("body")[0].scrollTop;
+            window.location.href = window.location.href.split('?')[0] + '?page_y=' + page_y;
+        }
+        window.onload = function () {
+            setTimeout(refreshPage, 35000);
+            if ( window.location.href.indexOf('page_y') != -1 ) {
+                var match = window.location.href.split('?')[1].split("&")[0].split("=");
+                document.getElementsByTagName("body")[0].scrollTop = match[1];
+            }
+        }
+      </script>
+    
+</body>
+
+</html>
