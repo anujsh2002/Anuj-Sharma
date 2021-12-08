@@ -191,7 +191,7 @@ hr{
     60% { opacity: 1; height: 100%;}
 }
   .bio{
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Shadows Into Light', sans-serif;
     font-weight: 500;
     animation: ani 10s linear 1 0s;
 
@@ -285,7 +285,7 @@ hr{
     .intro{
         width: 80%;
        margin:auto;
-        font-family: 'Fuzzy Bubbles', cursive;
+        font-family: 'Fuzzy Bubbles', sans-serif;
     }
     .logo-template{
         display: block;
